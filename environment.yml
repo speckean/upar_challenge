@@ -1,0 +1,10 @@
+name: rws-upar-challenge
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - tqdm
+  - notebook
+  - gdown
+  - requests
+  - numpy

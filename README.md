@@ -13,6 +13,9 @@ Associated workshop: [Real-World Surveillance: Applications and Challenges Works
 
 Challenge dataset: [UPAR dataset](https://arxiv.org/abs/2209.02522)
 
+## News
+2022-10-14 Encrypted test data is now available [here](https://drive.google.com/file/d/17BJkN4Xp0sheDjH6fDlB8K0u3ZVhQBP4/view?usp=sharing). Decryption key will be released on Oct 17th.
+
 ## Challenge Dataset
 We will build on an extension of the UPAR dataset.
 The challenge dataset consists of the harmonization of three public datasets (PA100K, PETA, and Market1501-Attributes) and a private test set.

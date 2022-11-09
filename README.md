@@ -26,11 +26,11 @@ This dataset enables the investigation of Pedestrian Attribute Recognition (PAR)
 The UPAR annotations and this repository are published under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/de/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License</a>.
 If you use the UPAR dataset, please cite our paper as well as the papers of the sub-datasets (see [Dataset information](#Datasetinformation))
 ```
-@article{specker2022upar,
+@inproceedings{specker2023upar,
   title={UPAR: Unified Pedestrian Attribute Recognition and Person Retrieval},
   author={Specker, Andreas and Cormier, Mickael and Beyerer, J{\"u}rgen},
-  journal={arXiv preprint arXiv:2209.02522},
-  year={2022}
+  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+  year={2023}
 }
 ```
 

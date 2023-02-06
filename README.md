@@ -13,6 +13,8 @@ Associated workshop: [Real-World Surveillance: Applications and Challenges Works
 
 Challenge dataset: [UPAR dataset](https://arxiv.org/abs/2209.02522)
 
+Original UPAR dataset: [Github](https://github.com/speckean/upar_dataset)
+
 ## News
 2022-10-17 Decryption key for test data: rGJ.=R6rGkjr8NYf
 

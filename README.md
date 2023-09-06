@@ -1,6 +1,6 @@
-# Pedestrian Attribute Recognition and Attributed-based Person Retrieval Challenge at WACV 2023 (UPAR@WACV2023)
+# Pedestrian Attribute Recognition and Attributed-based Person Retrieval Challenge at WACV 2024 (UPAR@WACV2024)
 
-The UPAR@WACV2023 challenge includes separate tracks for Pedestrian Attribute Recognition and Attribute-based Person
+The UPAR@WACV2024 challenge includes separate tracks for Pedestrian Attribute Recognition and Attribute-based Person
 Retrieval.
 This challenge aims to spotlight the problem of domain gap in a real-world surveillance context and highlight the
 challenges and limitations of existing methods to provide a direction of research for the future.
@@ -9,9 +9,11 @@ It will be based on an extenstion of the UPAR Dataset [1] composed of annotation
 ## Information
 Challenge website: [UPAR Challenge](https://chalearnlap.cvc.uab.cat/challenge/52/description/)
 
-Associated workshop: [Real-World Surveillance: Applications and Challenges Workshop](https://vap.aau.dk/rws-wacv2023/)
+Associated workshop: [Real-World Surveillance: Applications and Challenges Workshop](https://vap.aau.dk/rws-wacv2024/)
 
-Challenge dataset: [UPAR dataset](https://arxiv.org/abs/2209.02522)
+Challenge dataset: [UPAR dataset](https://openaccess.thecvf.com/content/WACV2023/papers/Specker_UPAR_Unified_Pedestrian_Attribute_Recognition_and_Person_Retrieval_WACV_2023_paper.pdf)
+
+Challenge results 2023: [UPAR@WACV2023](https://openaccess.thecvf.com/content/WACV2023W/RWS/papers/Cormier_UPAR_Challenge_Pedestrian_Attribute_Recognition_and_Attribute-Based_Person_Retrieval_--_WACVW_2023_paper.pdf)
 
 ## Challenge Dataset
 We will build on an extension of the UPAR dataset.
@@ -21,11 +23,20 @@ This dataset enables the investigation of Pedestrian Attribute Recognition (PAR)
 The UPAR annotations and this repository are published under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/de/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License</a>.
 If you use the UPAR dataset, please cite our paper as well as the papers of the sub-datasets (see [Dataset information](#Datasetinformation))
 ```
-@article{specker2022upar,
-  title={UPAR: Unified Pedestrian Attribute Recognition and Person Retrieval},
+@inproceedings{specker2023upar,
+  title={UPAR: Unified pedestrian attribute recognition and person retrieval},
   author={Specker, Andreas and Cormier, Mickael and Beyerer, J{\"u}rgen},
-  journal={arXiv preprint arXiv:2209.02522},
-  year={2022}
+  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
+  pages={981--990},
+  year={2023}
+}
+
+@inproceedings{cormier2023upar,
+  title={UPAR Challenge: Pedestrian Attribute Recognition and Attribute-Based Person Retrieval--Dataset, Design, and Results},
+  author={Cormier, Mickael and Specker, Andreas and Junior, Julio and Jacques, CS and Florin, Lucas and Metzler, J{\"u}rgen and Moeslund, Thomas B and Nasrollahi, Kamal and Escalera, Sergio and Beyerer, J{\"u}rgen},
+  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
+  pages={166--175},
+  year={2023}
 }
 ```
 
@@ -45,16 +56,12 @@ python download_datasets.py
 │── data/                               
 │   ├── phase1/                         -> annotations for the development phase
 │   │   │── train/                      -> train images with attribute labels for the three splits             
-│   │   │   ├── train_0.csv
-│   │   │   ├── train_1.csv
-│   │   │   └── train_2.csv
+│   │   │   └── train.csv
 │   │   ├── val_task1/                  -> information required for task 1 submissions to the evaluation server
-│   │   │   └── val_all.csv             -> list of images for which predictions have to be submitted (Task 1 PAR)
+│   │   │   └── val.csv                 -> list of images for which predictions have to be submitted (Task 1 PAR)
 │   │   └── val_task2/                  -> information required for task 2 submissions to the evaluation server
-│   │       ├── val_imgs_0.csv          -> list of gallery images for split 0
-│   │       ├── ...
-│   │       ├── val_queries_0.csv       -> attribute queries for split 0
-│   │       └── ...
+│   │       ├── val_imgs.csv            -> list of gallery images
+│   │       └── val_queries.csv         -> attribute queries
 │   ├── Market1501/                     -> Market1501 dataset
 │   │   ├── bounding_box_test/
 │   │   ├── bounding_box_train/

@@ -95,11 +95,11 @@ def prepare_peta(dataset_path):
 
 
 def prepare_annotations(dataset_path):
-    anno_path = dataset_path #/ "annotations"
+    anno_path = dataset_path / "annotations"
     anno_path.mkdir(parents=True, exist_ok=True)
     anno_zipfile = anno_path / "development.zip"
     print("Download annotations")
-    url = "https://drive.google.com/file/d/1LeP3i59wJG9QZNwwz4iIyiU9iTCB4yQv/view?usp=sharing"
+    url = "https://drive.google.com/file/d/1FMX9nUrXArxW4wkORO6Z7zp7xy7JBjUM/view?usp=sharing"
     gdown.download(url, output=str(anno_zipfile), quiet=False, use_cookies=False, fuzzy=True)
     print("Extract annotations")
     extract_zip(anno_zipfile, anno_path)
@@ -108,7 +108,7 @@ def prepare_annotations(dataset_path):
 def prepare_templates(dataset_path):
     template_zipfile = dataset_path / "submission_templates.zip"
     print("Download templates")
-    url = "https://drive.google.com/file/d/1dnciiDxOQcPCvhXCSMFlENAdn7Mfp-ow/view?usp=sharing"
+    url = "https://drive.google.com/file/d/11ZxT8kixkV-vAj8aixS8n2aGJ5Rw0OQy/view?usp=sharing"
     gdown.download(url, output=str(template_zipfile), quiet=False, use_cookies=False, fuzzy=True)
     print("Extract templates")
     extract_zip(template_zipfile, dataset_path)
@@ -133,7 +133,7 @@ def prepare_datasets(path):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
-        description="WACV2023 RWS UPAR Challenge",
+        description="WACV2024 RWS UPAR Challenge",
         formatter_class=argparse.ArgumentDefaultsHelpFormatter,
     )
     parser.add_argument(

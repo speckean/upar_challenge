@@ -6,6 +6,9 @@ This challenge aims to spotlight the problem of domain gap in a real-world surve
 challenges and limitations of existing methods to provide a direction of research for the future.
 It will be based on an extenstion of the UPAR Dataset [1] composed of annotations for 40 binary attributes.
 
+## News
+2023-10-13 Encrypted test data is now available [here](https://drive.google.com/file/d/1eJKKvWenl6aQE76D0j0asf3YVthVvqpq/view?usp=sharing). Decryption key will be released on Oct 16th.
+
 ## Information
 Challenge website: [UPAR Challenge](https://chalearnlap.cvc.uab.cat/challenge/52/description/)
 

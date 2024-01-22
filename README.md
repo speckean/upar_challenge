@@ -7,6 +7,7 @@ challenges and limitations of existing methods to provide a direction of researc
 It will be based on an extenstion of the UPAR Dataset [1] composed of annotations for 40 binary attributes.
 
 ## News
+- 2024-01-07 Challenge paper is published [here](https://openaccess.thecvf.com/content/WACV2024W/RWS/html/Cormier_UPAR_Challenge_2024_Pedestrian_Attribute_Recognition_and_Attribute-Based_Person_Retrieval_WACVW_2024_paper.html)
 - 2023-10-16 Decryption key: UVk4yayzy38zEMKH
 - 2023-10-13 Encrypted test data is now available [here](https://drive.google.com/file/d/1eJKKvWenl6aQE76D0j0asf3YVthVvqpq/view?usp=sharing). Decryption key will be released on Oct 16th.
 

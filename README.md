@@ -45,6 +45,15 @@ If you use the UPAR dataset, please cite our paper as well as the papers of the 
   pages={166--175},
   year={2023}
 }
+
+@InProceedings{Cormier_2024_WACV,
+    author    = {Cormier, Mickael and Specker, Andreas and Junior, Julio C. S. Jacques and Moritz, Lennart and Metzler, J\"urgen and Moeslund, Thomas B. and Nasrollahi, Kamal and Escalera, Sergio and Beyerer, J\"urgen},
+    title     = {UPAR Challenge 2024: Pedestrian Attribute Recognition and Attribute-Based Person Retrieval - Dataset, Design, and Results},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) Workshops},
+    month     = {January},
+    year      = {2024},
+    pages     = {359-367}
+}
 ```
 
 ## Starter Kit Usage
